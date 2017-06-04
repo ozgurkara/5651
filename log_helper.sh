@@ -22,10 +22,9 @@ chown syslog:syslog /weblog/weblog.log
 /sbin/service rsyslog restart
 echo "Completed /sbin/service rsyslog restart"
 
-#domaine ait logların olduğu dosyanın zaman damgasını servise gönderiyoruz
+#log dosyanı zaman damgasını servise gönderiyoruz
 echo "Starting time locked....."
 java -jar $root_folder_path/scripts/ZamaneConsole-2.0.5.jar -z $current_log_folder/$log_file_name http://zd.kamusm.gov.tr 80 XXXX YYYY sha-256
-#touch "$current_log_folder/$log_file_name.zd"
 echo "Completed time locked"
 
 #log dosyasını ve zaman damgasını zipliyoruz
@@ -49,7 +48,6 @@ find $root_folder_path/logs -name "*.zip" | while read fname; do
     mv $root_folder_path/logs/${yesterday_name}.zip /weblog/backup
     echo "Uploaded file : $filePath"
 done;
-
 
 #slack e notification gönderiyoruz
 echo "Started slack notification"
