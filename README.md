@@ -10,6 +10,6 @@ Bu projedeki log_helper.sh scripti parametre olarak gönderilen log dosyasını;
 
 Örnek kullanım;
 
-root_path = /weblog/dyg_logs  (oluşturalacak dosyalar bu path içine eklenecek)__
-log_path = /weblog/weblog.log (log dosyasının path i)__
+root_path = /weblog/dyg_logs  (oluşturalacak dosyalar bu path içine eklenecek) <br />
+log_path = /weblog/weblog.log (log dosyasının path i) <br />
 /5651/log_helper.sh /weblog/dyg_logs /weblog/weblog.log
