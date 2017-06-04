@@ -9,7 +9,7 @@ Bu projedeki log_helper.sh scripti parametre olarak gönderilen log dosyasını;
 
 
 
-#### H4 Örnek kullanım;
+#### Örnek kullanım;
 
 root_path = /weblog/dyg_logs  (oluşturalacak dosyalar bu path içine eklenecek) <br />
 log_path = /weblog/weblog.log (log dosyasının path i) <br />
