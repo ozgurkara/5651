@@ -22,6 +22,6 @@
 # m h  dom mon dow   command
 
 MAILTO=""
-01 00 * * *  /weblog/dyg_logs/scripts/log_all.sh /weblog/dyg_logs /weblog/weblog.log >> /weblog/dyg_logs/logs/`date  --date="-1 day"  +\%Y-\%m-\%d`.log 2>&1
+01 00 * * *  /5651/log_helper.sh /weblog/dyg_logs /weblog/weblog.log >> /weblog/dyg_logs/logs/`date  --date="-1 day"  +\%Y-\%m-\%d`.log 2>&1
 
 
