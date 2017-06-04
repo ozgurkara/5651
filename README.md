@@ -8,6 +8,7 @@ Bu projedeki log_helper.sh scripti parametre olarak gönderilen log dosyasını;
 4. Storage a gönderilen dosya boyutu ve zaman damgası için kalan kredi Slack te ile istenilen channel a notification ile bildirilir.
 
 
+
 Örnek kullanım;
 
 root_path = /weblog/dyg_logs  (oluşturalacak dosyalar bu path içine eklenecek) <br />
